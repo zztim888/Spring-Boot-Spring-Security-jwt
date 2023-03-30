@@ -4,8 +4,9 @@ An application with Spring Boot and Spring Security with JWT Authentication and 
 add a user, check if the user is in the datbasing using Postman
 
 register a user:
-http://localhost:8080/api/v1/auth/register
 post
+http://localhost:8080/api/v1/auth/register
+
 {
     "firstname":"Sven",
     "lastname":"Eriksson",
